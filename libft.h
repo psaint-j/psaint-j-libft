@@ -89,6 +89,7 @@ char			*ft_strupcase(char *str);
 char			*ft_strlowcase(char *str);
 void			ft_printcolor(char *color, char *str);
 char			*ft_strrev(char *str);
+int				ft_countab(char **tab);
 # define C_BLACK        "\033[30m"
 # define C_RED          "\033[31m"
 # define C_GREEN        "\033[32m"

@@ -74,7 +74,8 @@ SRC =   ft_bzero.c \
 		ft_strlowcase.c\
 		ft_strupcase.c\
 		ft_printcolor.c\
-		ft_strrev.c
+		ft_strrev.c\
+		ft_countab.c
 
 OBJ =  ft_bzero.o \
 	   ft_memalloc.o \
@@ -138,7 +139,8 @@ OBJ =  ft_bzero.o \
 	   ft_strlowcase.o\
 	   ft_strupcase.o\
 	   ft_printcolor.o\
-	   ft_strrev.o
+	   ft_strrev.o\
+	   ft_countab.o
 
 all: $(NAME)
 
